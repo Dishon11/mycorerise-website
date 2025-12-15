@@ -166,7 +166,10 @@ export default function Footer() {
     setMessage("");
 
     try {
-      const res = await fetch("http://localhost:5174/api/waitlist", {
+      // 🔹 CHANGE STARTS HERE: replace direct localhost URL with baseUrl
+      const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:5174";
+
+      const res = await fetch(`${baseUrl}/api/waitlist`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, country }),
