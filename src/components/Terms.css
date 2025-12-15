@@ -1,0 +1,17 @@
+/* src/components/Terms.css */
+.terms-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #fff;
+  background: #111;
+  border-radius: 8px;
+}
+.terms-container h1 {
+  margin-bottom: 10px;
+}
+.terms-container h2 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
