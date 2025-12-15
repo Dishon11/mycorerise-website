@@ -253,7 +253,7 @@ export default function Footer() {
         <div className="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
           <p className="flex justify-center w-full">
             <img
-              src="/images/mck_final.png"
+              src="/images/mck14.png"
               alt="MyCoreRise Logo"
               className="h-30 w-auto border border-white rounded-3xl"
             />
