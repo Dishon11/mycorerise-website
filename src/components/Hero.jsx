@@ -49,7 +49,7 @@ export default function Hero() {
       {/* Logo */}
       <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-50 flex items-center gap-2">
         <img
-          src="public/mck_final.png"
+          src="/mck_final.png"
           alt="MCR Logo"
           className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
         />
