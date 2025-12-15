@@ -301,15 +301,13 @@ export default function Footer() {
           <ul className="mt-2 text-sm text-gray-300 space-y-1">
             <li>
               <a
-                href="mailto:dis.2005.in@gmail.com"
+                href="mailto:dssquarecorefitness007@gmail.com"
                 className="hover:text-blue-400"
               >
-                dis.2005.in@gmail.com
+                dssquarecorefitness007@gmail.com
               </a>
             </li>
-            <li>
-              <span className="text-gray-300">+91 98765 43210</span>
-            </li>
+            
             <li>
               <a
                 href="https://twitter.com/mycorerise"
