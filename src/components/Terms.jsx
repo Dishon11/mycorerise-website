@@ -5,7 +5,7 @@ export default function Terms() {
   return (
     <div className="min-h-screen w-full bg-white text-gray-900 px-6 py-10 md:px-20 lg:px-40">
       <h1 className="text-3xl font-bold mb-4">Terms & Conditions</h1>
-      <p className="text-sm text-gray-500 mb-8">Last Updated: DD/MM/YYYY</p>
+      {/* <p className="text-sm text-gray-500 mb-8">Last Updated: DD/MM/YYYY</p> */}
 
       <p>
         Welcome to MyCoreRise (the “Website”). By accessing, browsing, or using
