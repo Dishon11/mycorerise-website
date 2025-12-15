@@ -145,7 +145,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.a
-            href="#waitlist"
+            href="#footer"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "linear", delay: 0.5 }}

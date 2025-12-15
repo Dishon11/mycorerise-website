@@ -191,7 +191,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="border-t border-gray-200 bg-[#001D28] pt-20">
+    <footer className="border-t border-gray-200 bg-[#001D28] pt-20 " id="footer">
       {/* Frosted container with waitlist form */}
       <div className="max-w-4xl min-h-[200px] mx-auto bg-white/10 backdrop-blur-md border border-white/30 rounded-xl shadow-lg p-6 md:p-10">
         <h1 className="text-white text-center text-[18px] md:text-[22px] lg:text-[28px] mb-6">
