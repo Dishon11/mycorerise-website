@@ -39,6 +39,7 @@ import Footer from "./components/Footer";
 import Terms from "./components/Terms";
 import WhoWeSupport from "./components/wesupport";
 import AboutUs from "./components/AboutUs";
+import PrivacyPolicy from "./components/privacy";
 
 export default function App() {
   const location = useLocation(); // ✅ get current route
@@ -62,6 +63,7 @@ export default function App() {
             }
           />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         </Routes>
       </main>
 

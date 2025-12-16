@@ -6,13 +6,13 @@ export default function Founders() {
       name: "Divyank Surum",
       role: "Co‑Founder",
       bio: "Marketing leader and strategist who helped bring the idea to life, focused on guiding teams, shaping brand vision, and driving growth through creative campaigns.",
-      img: "/images/mck_final.png", // replace with actual photo
+      img: "/images/divyank1.jpg" 
     },
     {
       name: "Dishon John Siddapur",
       role: "Co‑Founder",
       bio: "Engineer and tech enthusiast passionate about building scalable systems, solving complex problems, and creating reliable products.",
-      img: "/images/mck_final.png", // replace with actual photo
+      img: "/images/dishon.jpg"
     },
   ];
 
