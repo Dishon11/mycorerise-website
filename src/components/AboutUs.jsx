@@ -13,6 +13,7 @@ export default function Founders() {
       role: "Co‑Founder",
       bio: "Engineer and tech enthusiast passionate about building scalable systems, solving complex problems, and creating reliable products.",
       img: "/images/dishon.jpg"
+      // linkedin:""
     },
   ];
 

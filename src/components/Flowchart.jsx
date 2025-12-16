@@ -69,7 +69,7 @@ export default function FlowchartSection() {
               // - flex items-start gap-3: number + text side by side
               // - conditional classes: left vs right alignment
               className={`w-full sm:w-[80%] md:w-[40%] backdrop-blur-md rounded-xl p-4 sm:p-6 md:p-8 text-white shadow-lg border border-white/30 flex items-start gap-3 sm:gap-4
-                ${idx % 2 === 0 ? "self-start text-left bg-white/10" : "self-end ml-auto text-right bg-white/10"}`}
+                ${idx % 2 === 0 ? "self-start text-left bg-white/10" : "self-start ml-auto text-left bg-white/10"}`}
             >
               {/* Number badge */}
               {/* flex-shrink-0: prevents shrinking
