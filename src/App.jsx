@@ -63,12 +63,12 @@ export default function App() {
             }
           />
           <Route path="/terms" element={<Terms />} />
-          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </main>
 
       {/* ✅ Only show footer if NOT on /terms */}
-      {location.pathname !== "/terms" && <Footer />}
+      {location.pathname !== "/terms" && location.pathname !== "/privacy-policy" &&( <Footer />)}
     </div>
   );
 }
