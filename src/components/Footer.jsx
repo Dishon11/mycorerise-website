@@ -329,7 +329,7 @@ export default function Footer() {
             <li>
               <Link
                 to="/privacy-policy"
-                className="text-xs text-gray-500 hover:text-blue-400 underline"
+                className="  hover:text-blue-400 underline"
               >
                 Privacy Policy
               </Link>
