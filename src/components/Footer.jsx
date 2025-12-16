@@ -276,22 +276,22 @@ export default function Footer() {
           <h4 className="font-semibold text-white">Quick Links</h4>
           <ul className="mt-2 text-sm text-gray-300 space-y-1">
             <li>
-              <a href="#home" className="hover:text-blue-400 underline">
+              <a href="#home" className="hover:text-blue-400 ">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-400 underline">
+              <a href="#about" className="hover:text-blue-400 ">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#feature" className="hover:text-blue-400 underline">
+              <a href="#feature" className="hover:text-blue-400 ">
                 Features
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-blue-400 underline">
+              <a href="#faq" className="hover:text-blue-400 ">
                 FAQs
               </a>
             </li>
@@ -305,7 +305,7 @@ export default function Footer() {
             <li>
               <a
                 href="mailto:dssquarecorefitness007@gmail.com"
-                className="hover:text-blue-400 underline"
+                className="hover:text-blue-400 "
               >
                 dssquarecorefitness007@gmail.com
               </a>
@@ -314,7 +314,7 @@ export default function Footer() {
             <li>
               <a
                 href="https://twitter.com/mycorerise"
-                className="hover:text-blue-400 underline"
+                className="hover:text-blue-400 "
               >
                 Instagram
               </a>
