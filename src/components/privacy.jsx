@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <section className="min-h-screen bg-slate-950 text-slate-100 py-16 px-4">
+    <section className="min-h-screen bg-slate-100 text-slate-950 py-16 px-4">
       <div className="mx-auto max-w-3xl">
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
