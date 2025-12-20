@@ -259,9 +259,9 @@ export default function Footer() {
         <div className="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
           <p className="flex justify-center w-full">
             <img
-              src="/images/mck14.png"
+              src="/images/newcr.svg"
               alt="MyCoreRise Logo"
-              className="h-30 w-auto border border-white rounded-3xl p-3 bg-white"
+              className="h-30 w-auto border border-white rounded-3xl p-1"
             />
           </p>
           <p className="text-sm text-gray-300 max-w-md">

@@ -54,9 +54,9 @@ export default function Hero() {
       {/* Logo */}
       <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-50 flex items-center gap-2">
         <img
-          src="/images/mck13.png"
+          src="/images/newcr.svg"
           alt="MCR Logo"
-          className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
+          className="h-10 w-10 sm:h-12 sm:w-12 object-contain p-1"
         />
         <span className="text-white text-lg sm:text-xl font-semibold tracking-wide drop-shadow-lg">
           MyCoreRise
