@@ -7,3 +7,8 @@
 .glass-card {
   @apply bg-white/50 backdrop-blur-md border border-white/30 shadow-md rounded-2xl;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

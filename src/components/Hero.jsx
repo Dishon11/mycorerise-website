@@ -38,6 +38,11 @@ export default function Hero() {
     setMenuOpen(false); // close mobile menu after click
   };
 
+  // const scrollToSection = () => {
+  //   const section = document.getElementById("footer");
+  //   section.scrollIntoView({ behavior: "smooth" });
+  // };
+
   return (
     <section
       id="home"
@@ -148,6 +153,7 @@ export default function Hero() {
             href="#footer"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
+            // onClick={scrollToSection}
             transition={{ duration: 0.8, ease: "linear", delay: 0.5 }}
             className="mt-6 inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 
               bg-white/20 backdrop-blur-md border border-white/30 
@@ -156,6 +162,7 @@ export default function Hero() {
           >
             Join the Waitlist →
           </motion.a>
+
         </div>
       </div>
     </section>

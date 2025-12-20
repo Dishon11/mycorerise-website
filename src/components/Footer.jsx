@@ -261,7 +261,7 @@ export default function Footer() {
             <img
               src="/images/mck14.png"
               alt="MyCoreRise Logo"
-              className="h-30 w-auto border border-white rounded-3xl"
+              className="h-30 w-auto border border-white rounded-3xl p-3 bg-white"
             />
           </p>
           <p className="text-sm text-gray-300 max-w-md">

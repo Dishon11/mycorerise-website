@@ -78,7 +78,8 @@ export default function WhoWeSupport() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "linear" }}
         >
-          Who We Support
+          {/* Who We Support */}
+          Who We Support & How We Help
         </motion.h2>
 
         {/* Grid of groups */}

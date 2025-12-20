@@ -27,7 +27,11 @@ export default function FlowchartSection() {
         backgroundImage: "url('/images/women.jpg')", // background photo
       }}
     >
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut"}}
+        viewport={{ once: true }}
         className="flex w-full h-fit justify-center text-white 
                 pb-8 sm:pb-12 md:pb-16 lg:pb-20 text-center"
       >
@@ -39,7 +43,7 @@ export default function FlowchartSection() {
           {/* Health Impact of Prolonged Sitting */}
           Move More, Stress Less
         </h1>
-      </div>
+      </motion.div>
       {/* Overlay for contrast */}
       {/* absolute inset-0: covers the whole section
           bg-black/30: semi-transparent black overlay
