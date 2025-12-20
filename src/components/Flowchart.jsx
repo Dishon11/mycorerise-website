@@ -27,9 +27,17 @@ export default function FlowchartSection() {
         backgroundImage: "url('/images/women.jpg')", // background photo
       }}
     >
-      <div className="flex w-full h-fit justify-center text-white pb-20">
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl font-[Poppins]">
-          Health Impact of Prolonged Sitting
+      <div
+        className="flex w-full h-fit justify-center text-white 
+                pb-8 sm:pb-12 md:pb-16 lg:pb-20 text-center"
+      >
+        <h1
+          className="font-bold 
+                 text-xl sm:text-3xl md:text-4xl lg:text-5xl 
+                 font-[Poppins] leading-tight"
+        >
+          {/* Health Impact of Prolonged Sitting */}
+          Move More, Stress Less
         </h1>
       </div>
       {/* Overlay for contrast */}
