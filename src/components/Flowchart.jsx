@@ -30,19 +30,15 @@ export default function FlowchartSection() {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut"}}
+        transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
         className="flex w-full h-fit justify-center text-white 
                 pb-8 sm:pb-12 md:pb-16 lg:pb-20 text-center"
       >
-        <h1
-          className="font-bold 
-                 text-xl sm:text-3xl md:text-4xl lg:text-5xl 
-                 font-[Poppins] leading-tight"
-        >
-          {/* Health Impact of Prolonged Sitting */}
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-12">
+          {/* Who We Support */}
           Move More, Stress Less
-        </h1>
+        </h2>
       </motion.div>
       {/* Overlay for contrast */}
       {/* absolute inset-0: covers the whole section
