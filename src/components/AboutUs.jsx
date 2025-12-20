@@ -20,7 +20,7 @@ export default function Founders() {
   return (
     <motion.section
       id="about"
-      className="section py-20 bg-gradient-to-b from-white via-purple-50 to-white"
+      className="section py-20 bg-gradient-to-b from-white via-blue-100 to-blue-200 min-w-full"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
