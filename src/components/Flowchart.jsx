@@ -27,6 +27,11 @@ export default function FlowchartSection() {
         backgroundImage: "url('/images/women.jpg')", // background photo
       }}
     >
+      <div className="flex w-full h-fit justify-center text-white pb-20">
+        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl font-[Poppins]">
+          Health Impact of Prolonged Sitting
+        </h1>
+      </div>
       {/* Overlay for contrast */}
       {/* absolute inset-0: covers the whole section
           bg-black/30: semi-transparent black overlay
@@ -69,7 +74,11 @@ export default function FlowchartSection() {
               // - flex items-start gap-3: number + text side by side
               // - conditional classes: left vs right alignment
               className={`w-full sm:w-[80%] md:w-[40%] backdrop-blur-md rounded-xl p-4 sm:p-6 md:p-8 text-white shadow-lg border border-white/30 flex items-start gap-3 sm:gap-4
-                ${idx % 2 === 0 ? "self-start text-left bg-white/10" : "self-start ml-auto text-left bg-white/10"}`}
+                ${
+                  idx % 2 === 0
+                    ? "self-start text-left bg-white/10"
+                    : "self-start ml-auto text-left bg-white/10"
+                }`}
             >
               {/* Number badge */}
               {/* flex-shrink-0: prevents shrinking
