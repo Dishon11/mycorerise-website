@@ -206,7 +206,7 @@ export default function WhoWeSupport() {
 
       {/* Closing tagline */}
       <motion.div
-        className="font-bold text-2xl sm:text-3xl md:text-5xl text-center pt-12 sm:pt-16 text-[#006183] mb-12 sm:mb-16"
+        className="font-bold text-2xl font-[Poppins] sm:text-3xl md:text-5xl text-center pt-12 sm:pt-16 text-[#006183] mb-12 sm:mb-16"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
