@@ -259,7 +259,7 @@ export default function Footer() {
         <div className="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
           <p className="flex justify-center w-full">
             <img
-              src="/images/newcr.svg"
+              src="/images/final_4.svg"
               alt="MyCoreRise Logo"
               className="h-30 w-auto border border-white rounded-3xl p-1"
             />
@@ -313,7 +313,7 @@ export default function Footer() {
 
             <li>
               <a
-                href="https://twitter.com/mycorerise"
+                href="https://www.instagram.com/mycorerise"
                 className="hover:text-blue-400 "
               >
                 Instagram
