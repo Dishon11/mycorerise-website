@@ -56,7 +56,7 @@ export default function Founders() {
                 {f.name}
               </h3>
               <p className="text-sm text-gray-600 text-center">{f.role}</p>
-              <p className="mt-4 text-gray-700 text-sm leading-relaxed text-center">
+              <p className="mt-4 text-gray-700 text-sm lg:text-lg leading-relaxed text-center">
                 {f.bio}
               </p>
             </motion.div>

@@ -54,10 +54,11 @@ export default function App() {
               <>
                 <Hero />
                 <WhyStruggle />
-                <AboutUs/>
+                
                 <Flowchart />
                 <WhoWeSupport/>
                 <OfficeRoutine />
+                <AboutUs/>
                 <FAQ />
               </>
             }
